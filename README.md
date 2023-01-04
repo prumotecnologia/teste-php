@@ -60,14 +60,19 @@ Parte 3 – Complementares
 
 Em um servidor Linux, descreva os comandos para instalar:
 
-` 	`1 – O NGINX
+1. O NGINX
 
-`	`2 – O php, php-fpm e cli
+2. O php, php-fpm e cli
 
-`	`3 – MySQL
+3. MySQL
 
 Mostre um exemplo de código que faça o redirecionamento 301 de uma url [www.site.com/pagina1](http://www.site.com/pagina1) para  [www.site.com/pagina2](http://www.site.com/pagina2) utilizando o htacces (servidor com apache2 e modRewrite)
 
 Agora, mostre como o redirecionamento acima ficaria em um servidor com nginx.
 
+````
+As entregas deverão ser feitas via github:
+
+Faça um fork desse repositorio, adicione um arquivo txt com as respostas da parte 1 e 3 (se fizer) no root, adicione a aplicação da parte 2 em uma outra pasta, e depois abra um pull request para o repositorio original
+````
 
