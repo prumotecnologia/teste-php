@@ -25,3 +25,41 @@ Git é um versionador de arquivos. Utilizado para versionar e facilitar o trabal
 6. Com quais plataformas de repositórios de código fonte você já trabalhou?
 Git (local), GitHub, BitBucket, GitLab e SVN.
 
+
+/*************************************************************************************/
+Parte 3
+
+1. O NGINX
+Ubuntu
+sudo apt install nginx
+
+2. O php, php-fpm e cli
+Ubuntu
+sudo apt install php php-fpm php-cli
+
+3. MySQL
+Ubuntu
+sudo apt install mysql-client mysql-server
+
+
+
+/*************************************************************************************/
+NOTAS A RESPEITO DO TESTE DO APP
+
+Não foi utilizado nenhum framework para a finalidade do teste.
+
+Não foram criadas as funções de enviar e-mail ou salvar no banco de dados por não estar utilizando um framework.
+Além de tornar mais seguro tanto o envio de e-mail quanto o registro dos dados em uma banco de dados, também seria bem
+mais simples utilizando o recurso de ambos.
+
+Para o envio de e-mail poderia ser utilizado a função mail do PHP:
+
+mail(
+	    string $to,
+	    string $subject,
+	    string $message,
+	    mixed $additional_headers = ?,
+	    string $additional_parameters = ?
+): bool
+
+Ja para a gravação dos dados poderia ser utilizado o PDO.
