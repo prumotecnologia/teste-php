@@ -3,11 +3,11 @@
 Parte 1 – Teórica
 
 1. Descreva, com suas palavras, como funciona uma requisição HTTP.
-1. Qual a diferença de um redirecionamento 301 para um 302?
-1. Explique, com suas palavras, o que é o composer e para que ele serve.
-1. Dê algum exemplo de um framework em php que você conhece e cite algumas vantagens e desvantagens de utilizá-lo.
-1. O que é GIT?
-1. Com quais plataformas de repositórios de código fonte você já trabalhou?
+2. Qual a diferença de um redirecionamento 301 para um 302?
+3. Explique, com suas palavras, o que é o composer e para que ele serve.
+4. Dê algum exemplo de um framework em php que você conhece e cite algumas vantagens e desvantagens de utilizá-lo.
+5. O que é GIT?
+6. Com quais plataformas de repositórios de código fonte você já trabalhou?
 
 
 Parte 2 – Prática
