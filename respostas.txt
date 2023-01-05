@@ -1,0 +1,65 @@
+Parte 1
+
+1. Descreva, com suas palavras, como funciona uma requisição HTTP.
+O usuário clica em um link HTTP (hypertext transfer protocol) em um navegador, essa requisição aciona o servidor através da requisição do navegador, o servidor recebe essa chamada, interpreta, processa e retorna a chamada com os dados solicitados, o navegador recebe esses dados processados em forma de HTML e formata o texto para apresentar para o usuário.
+
+2. Qual a diferença de um redirecionamento 301 para um 302?
+301 indica que uma página foi movida permanentemente para um novo local / endereço.
+302 indica que a página foi movida temporariamente para um novo local.
+
+3. Explique, com suas palavras, o que é o composer e para que ele serve.
+O composer é um orquestrador de pacotes para o PHP. Ele facilita o dia a dia do programador que não precisa se precupar com versões de bibliotecas utilizadas no projetos e nem mesmo dos requesitos das mesmas. Além de ajudar a organizar as bibliotecas utilizadas em ambientes específicos como ambiente de testes, desenvolvimento e produção e poder organizar scripts de execução de tarefas como o caso de um script para executar testes no projeto.
+
+4. Dê algum exemplo de um framework em php que você conhece e cite algumas vantagens e desvantagens de utilizá-lo.
+CodeIgniter - Baseado no Ruby on Rails, bem dinâmico porém não utiliza um ORM necessitando que suas querys sejam escritas em SQL. Além de ser mantido por uma empresa e não pela comunidade.
+
+CakePHP - Também baseado no Ruby on Rails, tem como pontos positivos a criação de scaffolds e tem um poderoso ORM baseado no ActiveRecord, porém se não souber corretamente como fazer os relacionamentos e como utilizar corretamente o ORM pode se tornar o calcanhar de Aquíles da sua aplicação.
+
+Laravel - Outro framework baseado no Ruby on Rails, com uma documentação bem rica, um ecossistema bem farto e com uma comunidade pungente. Um framework bem flexível, com um ORM também baseado no ActiveRecord, porém não tão poderoso quanto o do CakePHP ou o Doctrine, mas serve muito bem para a maioria dos casos.
+
+Todos os frameworks citados utilizam o MVC como padrão, porém nada impede de se implementar novas camadas que sejam necessárias, como por exemplo repositories ou services, para ajudar na organização e ter um código mais limpo e fácil para se dar manutenção.
+
+5. O que é GIT?
+Git é um versionador de arquivos. Utilizado para versionar e facilitar o trabalho de desenvolvimento descentralizado. Podendo ter diversos colaboradores no mesmo projeto.
+
+6. Com quais plataformas de repositórios de código fonte você já trabalhou?
+Git (local), GitHub, BitBucket, GitLab e SVN.
+
+
+/*************************************************************************************/
+Parte 3
+
+1. O NGINX
+Ubuntu
+sudo apt install nginx
+
+2. O php, php-fpm e cli
+Ubuntu
+sudo apt install php php-fpm php-cli
+
+3. MySQL
+Ubuntu
+sudo apt install mysql-client mysql-server
+
+
+
+/*************************************************************************************/
+NOTAS A RESPEITO DO TESTE DO APP
+
+Não foi utilizado nenhum framework para a finalidade do teste.
+
+Não foram criadas as funções de enviar e-mail ou salvar no banco de dados por não estar utilizando um framework.
+Além de tornar mais seguro tanto o envio de e-mail quanto o registro dos dados em uma banco de dados, também seria bem
+mais simples utilizando o recurso de ambos.
+
+Para o envio de e-mail poderia ser utilizado a função mail do PHP:
+
+mail(
+	    string $to,
+	    string $subject,
+	    string $message,
+	    mixed $additional_headers = ?,
+	    string $additional_parameters = ?
+): bool
+
+Ja para a gravação dos dados poderia ser utilizado o PDO.
