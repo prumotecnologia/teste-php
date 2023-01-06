@@ -1,0 +1,14 @@
+1- É um padrão ou protocolo usado para que o um client, geralmente navegadores, consiga fazer requisições para um servidor.
+
+2- A principal diferença entre um redirecionamento 301 e 302 é que
+um seria melhor ultilizado para um redirecionamento permanentente e o outro provisóriamente,
+já que é levado em conta alguns parametros importantes para os sistemas de busca.
+
+3 - É o gerenciador de dependências do PHP. 
+
+4 - Symfony e Laravel, ambos são bem utilizados pela comunidade e bem práticos, porém vejo que
+a documentação do Laravel é bem mais completa facilitando a busca e soluções de problemas que possam surgir.
+
+5 - GIT é um sistema muito util para controle e versionamento de código fonte.
+
+6 - GIThub e atualmente ultilizo o GITLab.
