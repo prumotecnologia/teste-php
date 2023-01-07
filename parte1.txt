@@ -1,0 +1,12 @@
+1) O protocolo HTTP basicamente defina-se em requisição (cliente) e resposta (servidor).
+
+2) 301- A url solicitada foi movida para outro local de forma definitiva.
+302- A url atual redireciona para outro local, mas existe a previsão de retorno para a url anterior.
+
+3) Defino composer como um gerenciador de pacotes/dependencias. Com ele é possível executar diversos comandos para diversos frameworks php diferentes.
+
+4) Tenho conhecimento nos frameworks laravel (7,8) e codeignite (3,4). Ambos são bem completos e robustos. Cada framework tem sua sintaxe, porém acredito que a curva de aprendizado destes são mais rápidas e código bem enxuto em relação a outros no mercado.
+
+5) O git é um software que gerencia o versionamento de códigos. Muito útil para trabalho em equipe e conservação do histórico de atualizações.
+
+6) Trabalho com o gitHub atualmente.
